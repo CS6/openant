@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*- 
 # ANT - ANT-FS List Example
 #
 # Copyright (c) 2012, Gustav Tiger <gustav@tiger.name>

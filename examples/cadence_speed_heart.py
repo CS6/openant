@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 # ANT - Cadence, Speed Sensor AND Heart Rate Monitor - Example
 #
 # Copyright (c) 2012, Gustav Tiger <gustav@tiger.name>

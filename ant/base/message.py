@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 # Ant
 #
 # Copyright (c) 2012, Gustav Tiger <gustav@tiger.name>
