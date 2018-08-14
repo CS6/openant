@@ -42,8 +42,10 @@ class Monitor():
         self.cadence = "n/a";
         self.speed = "n/a";
 
+
     def on_data_heartrate(self, data):
         self.heartrate = str(data[7])
+        self.All = str(data)
         self.display()
 
     def on_data_cadence_speed(self, data):
@@ -52,7 +54,7 @@ class Monitor():
         self.display()
 
     def display(self):
-        string = "心跳: " + self.heartrate + " 轉速 Pedal revolutions: " + self.cadence + "速度 Wheel revolutions: " + self.speed + "raw" + str(data)
+        string = "心跳: " + self.heartrate + " 轉速 Pedal revolutions: " + self.cadence + "速度 Wheel revolutions: " + self.speed + "raw" + self.All
 
         sys.stdout.write(string)
         sys.stdout.flush()
