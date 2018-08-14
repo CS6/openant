@@ -36,7 +36,7 @@ NETWORK_KEY= [0xb9, 0xa5, 0x21, 0xfb, 0xbd, 0x72, 0xc3, 0x45]
 
 def on_data(data):
     heartrate = data[7]
-    string = "Heartrate: " + str(heartrate) + " [BPM]"
+    string = "Heartrate: " + str(heartrate) + "yo" +str(data[7]) + " [BPM]"
 
     sys.stdout.write(string)
     sys.stdout.flush()
