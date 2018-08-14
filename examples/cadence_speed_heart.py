@@ -54,7 +54,7 @@ class Monitor():
         self.display()
 
     def display(self):
-        string = "心跳: " + self.heartrate + " 轉速 Pedal revolutions: " + self.cadence + "速度 Wheel revolutions: " + self.speed + "raw" + self.All
+        string = "心跳: " + self.heartrate + " 轉速 Pedal revolutions: " + self.cadence + "速度 Wheel revolutions: " + self.speed + "[  ]資料" + self.All
 
         sys.stdout.write(string)
         sys.stdout.flush()
