@@ -52,7 +52,7 @@ class Monitor():
         self.display()
 
     def display(self):
-        string = "Hearthrate: " + self.heartrate + " Pedal revolutions: " + self.cadence + " Wheel revolutions: " + self.speed
+        string = "心跳: " + self.heartrate + " 轉速 Pedal revolutions: " + self.cadence + "速度 Wheel revolutions: " + self.speed + "raw" + str(data)
 
         sys.stdout.write(string)
         sys.stdout.flush()
